@@ -1,0 +1,31 @@
+HOW TO:
+When starting the game make sure that your webcam is placed on top
+of your solitaire. To the left you'll see a live feed of the webcam
+shown with an orange border. The areas in between these borders are
+representing (from left to right) the Stoke, the Talon, the Foundations
+and the Tableau. You must place your cards accordingly to these areas
+to be sure our Solitaire solver works.
+Around the corners of each card should be drawn a black box. This means
+that the computer vision has identified the card and is now saved to that
+pile. When you have your Solitaire and is ready to start the game, press
+the button in the right corner called "update board". This button will
+take the input from the live feed and transfer in on to the animated board
+on the right. 
+Make sure to check that every card is placed where it should be and is
+the same card on both the live feed and the animated board =).
+
+If one or more card is placed wrong press "Correct error on board".
+This button will open a menu, where you in the top section select the
+position of the wrong/missing card. In the middle section you select 
+which card you want to correct and in the bottom section, you can click
+the 3 buttons if you want to create a new card or remove a card.
+
+When you are sure the animated board is in order, click the "Calculate
+next move" button. This will calculate the optimal move to solve the
+Solitaire.
+Now you can move your physical cards accordingly to the animation and
+when you are ready click the "Update board" button. Do this until you
+win the game =) or lose the game =(
+
+The last button called "Border settings" opens a menu where you can
+toggle the border and change the vertical borders height.
